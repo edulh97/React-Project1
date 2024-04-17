@@ -1,0 +1,60 @@
+.footer-menu {
+    width: 100vw;
+    height: 20vh;
+    justify-content: center;
+   flex-direction: column;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(221,221,221,1) 50%);
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer-menu li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.footer-menu li {
+    margin-right: 20px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+}
+
+/* Efecto de subrayado */
+.footer-menu a::before,
+.footer-menu a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #0c0236;
+    transform: scaleX(0);
+    transition: transform 0.99s ease;
+}
+
+.footer-menu a::before {
+    bottom: calc(100% - 10px);
+    ;
+    top: 100;
+}
+
+.footer-menu a::after {
+    top: calc(100% - 10px);
+    bottom: 0;
+}
+
+.footer-menu a:hover::before,
+.footer-menu a:hover::after {
+    transform: scaleX(0.1);
+}
