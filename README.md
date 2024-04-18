@@ -1,5 +1,6 @@
 # React-Project1
 Welcome to my first React project! This is the first of three installments. In it you will see the different stages of the development of a web page!
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -14,6 +15,7 @@ Welcome to my first React project! This is the first of three installments. In i
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 This is a school project of the 1st course of multiplatform application development. The objective of this first delivery is the layout, that is to say, to start a project with React and create components to later assemble a web page that in this case is based on a website of modern houses.
@@ -27,7 +29,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- CONTACT -->
 ## Contact
 
---Eduardo López Hernández
+- Eduardo López Hernández
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 X: https://twitter.com/LhEdu
