@@ -1,0 +1,25 @@
+.HeaderImage{
+    width: 50vw;
+    height: 20vh;
+    transform: scaleY(1);
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.izquierda{
+    flex: 1;
+
+
+}
+
+.derecha{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+
+}
