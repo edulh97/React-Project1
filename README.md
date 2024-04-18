@@ -35,7 +35,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 --Eduardo López Hernández
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+X: https://twitter.com/LhEdu
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
