@@ -1,21 +1,19 @@
 import './HeaderImage.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function HeaderImage() {
-    return (
-        <>
-            <div class="container">
-                <div class="izquierda">
-                    <img class="HeaderImage" src="src/images/cortesito.jpg" />
-                </div>
-                <div class="derecha">
-                    <p>Casoplon del coletas</p>
-                    <p>Casoplon de Rajoy</p>
-                    <p>Casoplon del perro Sancheeeeee</p>
-                </div>
-            </div>
-        </>
-    )
+  return (
+    <>
+      <div className="container">
+        <div className="izquierda">
+          <img className="HeaderImage" src="src/images/founder.jpg" />
+        </div>
+        <div className="derecha">
+          <h1>Quality of work</h1>
+          <p>From WhiteRock we assure you the best conditions and facilities for you to get the house of your dreams.</p>
+        </div>
+      </div>
+    </>
+  )
 }
 
 export default HeaderImage;
